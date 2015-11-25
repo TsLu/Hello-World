@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Test for git used for IntelliJ IDEA
  * Created by lutingshu on 2015/11/24.
+ * Java test for github
  */
 public class HelloWorld {
     public static void main(String[] args){
