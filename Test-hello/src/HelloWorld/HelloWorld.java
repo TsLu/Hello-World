@@ -8,14 +8,38 @@ import java.util.Scanner;
  * Java test for github
  */
 public class HelloWorld {
+
+    /*public  static void  change(A a){
+        a = new A();
+        a.age = 30;
+    }
+    //main method
     public static void main(String[] args){
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("请输入圆的半径");
-        double r = input.nextDouble();
+        A test1 = new A();
+        test1.age = 10;
 
-        double ear = Math.PI * r * r;
-        System.out.println("半径为："+r+"的圆的面积为："+ear);
+        System.out.println("Before change, the age is " +  test1.age);
 
+        change(test1);
+        System.out.println("Afther change, the age is " +  test1.age);
+    }
+
+    static class  A{
+        public int age;
+    }*/
+
+    public  static void  change(String src){
+        src = "Hello";
+    }
+    //main method
+    public static void main(String[] args){
+
+        String test = "Good!";
+
+        System.out.println("Before change, the message is " +  test);
+
+        change(test);
+        System.out.println("Afther change, the message is " +  test);
     }
 }
