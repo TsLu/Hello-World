@@ -35,11 +35,17 @@ public class HelloWorld {
     //main method
     public static void main(String[] args){
 
-        String test = "Good!";
+        double a = Math.round(-3.5);
+
+       // double b = Math.log(a);
+        System.out.println(a);
+
+
+       /* String test = "Good!";
 
         System.out.println("Before change, the message is " +  test);
 
         change(test);
-        System.out.println("Afther change, the message is " +  test);
+        System.out.println("Afther change, the message is " +  test);*/
     }
 }
